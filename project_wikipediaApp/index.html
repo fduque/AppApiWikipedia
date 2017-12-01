@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+	<title>WikiApp</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<div id="mainView">
+	<div class="background-wrap">
+		<video id="video-bg-elem" preload="auto" autoplay="true" loop="loop" controls>
+			<source src="video/video.mp4" type="video/mp4">
+		</video>
+	</div>
+	<div class="jumbotron jumbotron-fluid" style="background: transparent;">
+	  <div class="container">
+	    <h1 class="display-3">Wiki Search</h1>
+	    <p class="lead">Discover the Wikipedia World!</p>
+	    <div class="input-group">
+	      <input id="txtinput" type="text" class="form-control" placeholder="Search for...">
+	      <span class="input-group-btn">
+	        <button id="btn" class="btn btn-secondary" type="button">Go!</button>
+	      </span>
+	    </div>
+	  </div>
+	</div>
+</div> 
+         
+<div id="htmlresultpage"></div>
+<div class="cardsView" style=""></div>
+
+<script src="script.js"></script>
+</body>
+</html>
