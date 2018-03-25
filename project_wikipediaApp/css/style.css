@@ -1,0 +1,64 @@
+#mainView{
+	  background-color:#30336b;
+	}
+
+
+#titleback {
+	position: relative;
+}
+#c1 {
+	background-color: rgba(246, 229, 141,1.0);
+	height: 100px;
+}
+
+#c2 {
+	background-color: rgba(255, 121, 121,1.0);
+	height: 100px;
+}
+
+#c3 {
+	background-color: rgba(186, 220, 88,1.0);
+	height: 100px;
+}
+
+#c4 {
+	background-color: #dff9fb;
+	height: 100px;
+}
+
+#c5 {
+	background-color: #f9ca24;
+	height: 100px;
+
+}
+
+#c6 {
+	background-color:#e056fd;
+	height: 100px;
+}
+
+#c7 {
+	background-color:#686de0;
+	height: 100px;
+}
+
+#c8 {
+	background-color: #dff9fb;
+	height: 100px;
+}
+
+
+.cardsView {
+	font-style: italic;
+	margin: 4%;
+	padding: 2;
+  }
+
+#jumb {
+	 background-size: 2000px 450px;
+	 background-position-y: center;
+	 padding: 200px;
+	 opacity: 1;
+	 color: whitesmoke;
+	 background-color:#30336b;
+	}

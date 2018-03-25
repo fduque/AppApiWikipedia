@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>WikiApp</title>
+      <link rel="stylesheet" href="css/style.css">  
+</head>
+<body>
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
@@ -9,30 +17,38 @@
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
-
 <div id="mainView">
-	<div class="background-wrap">
-		<video id="video-bg-elem" preload="auto" autoplay="true" loop="loop" controls>
-			<source src="video/video.mp4" type="video/mp4">
-		</video>
-	</div>
-	<div class="jumbotron jumbotron-fluid" style="background: transparent;">
-	  <div class="container">
+	<div id="jumb" class="jumbotron jumbotron-fluid">
+		<div id="titleback">
+				<div class="row">
+						<div id="c1" class="col"></div>
+						<div id="c2" class="col"></div>
+						<div id="c3" class="col"></div>
+						<div id="c4" class="col"></div>
+						<div id="c5" class="col"></div>
+						<div id="c6" class="col"></div>
+						<div id="c7" class="col"></div>
+						<div id="c8" class="col"></div>
+					</div>
+		</div>
+		<div class="container">
 	    <h1 class="display-3">Wiki Search</h1>
 	    <p class="lead">Discover the Wikipedia World!</p>
 	    <div class="input-group">
-	      <input id="txtinput" type="text" class="form-control" placeholder="Search for...">
+	      <input id="txtinput" type="text" class="form-control" placeholder="Type something exciting about...">
 	      <span class="input-group-btn">
 	        <button id="btn" class="btn btn-secondary" type="button">Go!</button>
 	      </span>
 	    </div>
 	  </div>
 	</div>
-</div> 
-         
+</div>   
 <div id="htmlresultpage"></div>
-<div class="cardsView" style=""></div>
+<div class="cardsView"></div>
 
 <script src="script.js"></script>
+</body>
+</html>
+    <script  src="js/index.js"></script>
 </body>
 </html>
